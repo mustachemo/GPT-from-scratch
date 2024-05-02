@@ -4,9 +4,32 @@
 
 This repository is dedicated to hosting various implementations of the Transformer model, as introduced in the landmark paper "Attention Is All You Need" by Vaswani et al. The Transformer architecture is designed for high performance in sequence-to-sequence tasks, leveraging self-attention mechanisms for superior handling of dependencies in data. This repository serves as a collective resource for different flavors and adaptations of the Transformer model, facilitating exploration and innovation in neural network architectures.
 
-## Repository Structure
+## Improvements
+The following libraries and tools can be used to enhance the functionality and performance of the Transformer implementations:
 
-Each sub-directory within this repository contains a unique implementation of the Transformer model. These implementations may vary by application, programming language, or the use of different frameworks and libraries. Here is what you can find in each:
+## Hugging Face's transformers library
+    - Pre-trained models
+    - Tokenization
+    - Optimization
+    - Learning rate scheduling
+    - Evaluation
+    - Inference
+    - Generation
+    - Fine-tuning
+    - Model saving/loading
+    - Model sharing
+    - Model serving
+    - Model conversion
+    - Model quantization
+    - Model compression
+    - Model distillation
+    - Model pruning
 
-- `harvard-nlp/`: Based on the "The Annotated Transformer" from Harvard NLP, providing a step-by-step guide to building the Transformer from scratch.
-- `other-implementations/`: Placeholder for other diverse Transformer model implementations.
+- can use the `torchtext` library for data processing
+- can use the `torch` library for training
+- can use the `pytorch-lightning` library for training
+- can use the `wandb` library for logging
+  
+- can use tiktoken from openai for tokenization (https://github.com/openai/tiktoken)
+- can use googles sentencepiece for tokenization (https://github.com/google/sentencepiece)
+- 
